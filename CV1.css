@@ -1,0 +1,117 @@
+        
+       
+      
+
+       /*cote gauche-droite*/
+         div.gouch-droitr{
+
+            margin: auto;
+            max-width: 900px;
+            box-shadow: 30px 0px 40px rgb(62, 62, 65), -30px 0px 40px rgb(147, 145, 168);
+            margin: auto;
+            max-width: 900px;
+            
+         }
+      /*Fin*/
+              
+              
+              
+              /*Cote gauche*/
+
+           /*coul-cout-gach*/
+              section{
+                background-color: rgb(38, 35, 31);
+                width: 35%;
+              }
+              /*Fin*/
+
+
+/*Photo */
+
+
+.photo {
+    margin-left: 11%;
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;   
+}
+/*Photo */
+
+
+/*<P> */
+p{
+    
+    color: #000000;
+    font-size: 22px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    text-align: center;
+    text-align: center;
+         
+}
+/*<P> */
+
+
+/*<div> */
+.div{
+    margin-left: 10%;
+    color: beige;
+
+   
+    
+}
+/*<div> */
+
+                    /*Fin*/
+
+
+/*Cote droite*/
+
+div.droite{
+    float: right;
+    width: 500px; 
+    
+
+   
+}
+
+div.droite{
+    
+    padding: 0;
+    margin: 40px;
+    margin-top: -105%;
+    
+}
+div.ti-droite{
+    background-color: rgb(38, 35, 31);
+    font-size: 22px;
+    width: 90%;
+    color: beige;  
+}
+
+
+@media screen and (max-width: 900px){
+    section.gauch{
+      width: 100%;
+      margin-right:10px;
+    }
+    div .droite{
+      display: block;
+      margin-left: -30;
+      margin-top: 500px;
+      margin-right: auto;
+      height: -50px;
+    }
+  }
+
+
+    
+
+
+
+
+
+
+
+
+

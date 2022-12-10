@@ -1,0 +1,67 @@
+ 
+ 
+ header.gauch{
+    box-shadow: 30px 0px 40px rgb(142, 136, 165), -30px 0px 40px rgb(153, 163, 219);
+    margin: auto;
+    max-width: 900px;
+    
+    
+} 
+
+
+/*Cote gauche*/
+
+.photo {
+    
+    border-radius: 60%;
+    width: 190px;
+    height: 190px;
+    overflow: hidden; 
+    margin-left: 3%;
+    
+}
+/*gauche les icon,comp,prof,lang*/
+ul{
+    margin-left: 1%;
+}
+h5{
+    margin-left: 4%;
+}
+h4{
+    margin-left: 3%;
+}
+
+
+/*gauch*/
+header.gauch{
+    margin-left: 20%;
+    background-color: #e4e7eb;
+   
+   
+    
+}
+
+
+/*Cote droite*/
+header.droite{
+    float: right;
+    width: 500px; 
+    padding: 0;
+    margin: 290px;
+    margin-top: -65%; 
+    text-align: justify;
+    
+}
+
+@media screen and (max-width: 900px){
+    header .gauch{
+      width: 100%;
+      margin-right:10px;
+    }
+    header .droite{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
